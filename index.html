@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Registration</title>
+</head>
+<body class="container"> 
+        
+    <form action="#" method="POST">
+        <label for="name">Name: *</label><br>
+        <input type="text" id="name" name="name" required class="input-box" placeholder="John">
+        <br><br>
+        <label for="lastName">Last Name: * </label><br>
+        <input type="text" name="lastName" id="lastName" required class="input-box" placeholder="Smith">
+        <br><br>
+        <label for="email">Email: *</label><br>
+        <input type="email" name="email" id="email" required class="input-box" placeholder="johnsmith@hotmail.com">
+        <br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" id="male" name="gender" value="male">Male</label><br>
+            <label><input type="radio" id="female" name="gender" value="female">Female</label>
+        </fieldset>
+        <br>
+
+        <label for="password">Password: *</label><br>
+        <input type="password" name="password" id="password" required class="input-box">
+        <br><br>
+        <label for="DOB">Date of Birth: </label>
+        <input type="date" name="DOB" id="DOB" required class="input-box2">
+        <br><br>
+        <label><input type="checkbox" name="terms" required>I agree to the Terms and Conditions</label>
+        <br><br>
+        <button>Register</button:submit>
+    </form>
+
+</body>
+</html>

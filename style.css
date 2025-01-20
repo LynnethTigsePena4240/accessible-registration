@@ -1,0 +1,48 @@
+.container{
+    padding: 70px 480px;
+}
+
+fieldset {
+    width: 50%;
+    border-radius: 3px;
+    border-width: 2px
+}
+
+.input-box{
+    height: 20px;
+    font-size: 20px;
+    width: 55%;
+    border-radius: 2px;
+    border-width: 1px;
+    background-color: rgb(253, 250, 245);
+}
+
+.input-box2{
+    height: 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    border-width: 1px;
+    background-color: rgb(253, 250, 245);
+}
+
+button{
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 20px;
+    background-color: rgb(253, 202, 125);
+}
+
+form{
+    border-width: 2px;
+    padding: 10%;
+    box-shadow: 5px 10px 18px #888;
+    border-radius: 10px;
+    background-color:bisque;
+    text-align: left;
+}
+
+body{
+    font-size: 20px;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
